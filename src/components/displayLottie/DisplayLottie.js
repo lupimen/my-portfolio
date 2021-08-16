@@ -18,6 +18,6 @@ export default class DisplayLottie extends Component {
           <Lottie options={defaultOptions} />
         </div>
       </Suspense>
-    );
+    ); 
   }
 }
