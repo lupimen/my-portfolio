@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Full Stack Software Developer with experience designing and building Web and Mobile applications with JavaScript / React.js / Node.js and some other cool libraries and frameworks! 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1KDUxagYzfyk3TBpIsHTGoGS3E4_nLs7V/view?usp=sharing",
+    "https://drive.google.com/file/d/1QBo0KuxivyscuxlcbXIfW68a1zcxrilJ/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -174,18 +174,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Salesforce Business Analyst",
+      company: "Deloitte",
+      companylogo: require("./assets/images/deloitteLogo.jpeg"),
+      date: "September 2021 – Present",
+      desc: 
+        "Bridge between IT and stakeholders to ensure best practices. This includes quality assurance, testing, creating and presenting flow process diagrams, wire-framing, and leveraging Salesforce analytics to solve business problems."
+    }, 
+    {
       role: "Software Engineer",
       company: "Infosys",
       companylogo: require("./assets/images/infosysLogo.png"),
       date: "September 2019 – June 2020",
       desc:
-        "Developed software applications using Salesforce for business optimization utilizing technologies and frameworks such as: ",
-      descBullets: [
-        "APEX",
-        "Visualforce",
-        "JavaScript",
-        "Lightning Web Components"
-      ]
+        "Developed software applications using Salesforce for business optimization utilizing technologies and frameworks such as APEX, JavaScript, Visualforce, and Lightning Web Components.",
     },
     {
       role: "Sales Optimization Specialist",
@@ -193,7 +195,7 @@ const workExperiences = {
       companylogo: require("./assets/images/njLotteryLogo.jpg"),
       date: "May 2017 – September 2018",
       desc:
-        "Delivered, installed and managed lottery POS initiatives for over 100 retailers. Managed sales data and consulted retailers in accordance to their personalized analytics, maximizing their ROI potential. Provided solutions for sales growth such as conducting on-site promotions, processing orders and returns for lottery merchandise, installing and training retailers on operating technology."
+        "Delivered, installed and managed lottery POS initiatives for over 100 retailers. Managed sales data and consulted retailers in accordance to their personalized analytics, maximizing their ROI potential."
     },
     {
       role: "AV Manager",
@@ -201,7 +203,7 @@ const workExperiences = {
       companylogo: require("./assets/images/poshLogo.png"),
       date: "June 2018 – September 2018",
       desc:
-        "Set up and broke down audiovisual equipment at weddings and conducted necessary soundchecks for DJ's and performers, providing high quality entertainment and professionalism. Responsible for monitoring and securing all AV technology, ensuring safety and best practices at events."
+        "Responsible for monitoring and securing all audiovisual technology, ensuring safety and best practices. Created checklists of required AV tech for weddings and set up equipment at events."
     },
   ]
 };

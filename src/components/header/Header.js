@@ -25,12 +25,15 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
+
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
+
+        <input className="menu-btn" type="checkbox" id="menu-btn"  />
+
         <label
           className="menu-icon"
           htmlFor="menu-btn"
@@ -38,6 +41,7 @@ function Header() {
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
+        
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
@@ -78,7 +82,9 @@ function Header() {
             </a>
           </li>
         </ul>
+
       </header>
+
     </Headroom>
   );
 }

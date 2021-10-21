@@ -25,7 +25,9 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-}
+} 
+
+
 .grey-color {
   color: #868e96;
 }
@@ -146,9 +148,9 @@
   top: 0;
 }
 
-/* 48em = 768px */
 
-@media (min-width: 48em) {
+
+@media (min-width: 768px) {
   .header li {
     float: left;
   }
